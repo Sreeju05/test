@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Indie+Flower&family=Poppins&family=Source+Code+Pro:ital,wght@1,900&family=Teko:wght@500&family=Updock&family=Whisper&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 1200px;
+    height: 800px;
+    background-color:dodgerblue;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    box-shadow: 3px 3px 5px 15px rgba(0, 0, 0, 0.415);
+}
+#sm1{
+    width: 500px;
+    height: 800px;
+    background-color: aliceblue;
+    
+    
+}
+#back{
+    width: 1060px;
+    height: 100vh;
+    background-color: dodgerblue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+input{
+    position: relative;
+    top: 250px;
+    left: 120px;
+    margin-top: 20px;
+    padding: 15px;
+    width: 300px;
+    caret-color: dodgerblue;
+    font-size: 15px;
+    /* line-height: 20px; */
+    /* margin-bottom: 10px; */
+    /* border-radius: 9px; */
+}
+h1{
+    position: relative;
+    top: 200px;
+    left: 220px; 
+    text-transform: uppercase;
+}
+.btn{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 10px;
+    /* border-color: dodgerblue; */
+}
+.btn1{
+    margin-top: 50px;
+    border-radius: 15px;
+    border-color: dodgerblue;
+ 
+    background-color: white;
+    transition: .7s ease-in-out;
+}
+.bg{
+    position: relative;
+    top:250px;
+    left: 130px;
+    color: dodgerblue;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.929);
+}
+.logo{
+    font-size:  1000px;
+    color:white;
+}
+#sm2{
+    width: 700px;
+    background-color: dodgerblue;
+}
+.btn1:hover{
+    box-shadow: inset 150px 0px 0px 0px dodgerblue,
+                inset -150px 0px 0px 0px dodgerblue ;
+    /* background-color: white; */
+    cursor: pointer;
+}
+button{
+    padding:20px 50px;
+    /* background-color: rgba(0, 89, 255, 0.698); */
+    position: relative;
+    left: 120px;
+    top: 400px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    transition: .5s ease-in-out;
+
+
+}
+button:hover{
+    box-shadow: inset 2px 2px 2px 0px rgba(0, 89, 255, 0.698) ,
+                inset -2px -2px 2px 0px rgba(0, 89, 255, 0.698);
+                color:rgba(0, 89, 255, 0.698) ;
+                cursor: pointer;
+}
+::placeholder{
+    font-size:15px;
+    text-transform: uppercase;
+    color: dodgerblue;
+}
+img{
+    position: relative;
+    left: 180px;
+    top: 130px;
+}
